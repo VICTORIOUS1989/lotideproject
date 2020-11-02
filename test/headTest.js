@@ -1,6 +1,7 @@
 const { assert } = require("chai");
 const head = require("../head");
 
+
 describe("#head", () => {
   it("should return 1 for [1, 2, 3]", () => {
     assert.strictEqual(head([1, 2, 3]), 1);
